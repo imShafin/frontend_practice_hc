@@ -1,0 +1,107 @@
+```
+{
+    "formId": 280125,
+    "formName": "বাংলাদেশের রাজনীতি ",
+    "pdf": null,
+    "blocks": [
+        {
+            "sequence": 1,
+            "title": "বাংলাদেশের রাজনীতি",
+            "fields": [
+                {
+                    "type": "RADIO",
+                    "placeholder": "আপনার মতে, বাংলাদেশের বর্তমান সরকার কতটা কার্যকর?",
+                    "label": "আপনার মতে, বাংলাদেশের বর্তমান সরকার কতটা কার্যকর?",
+                    "name": "effective",
+                    "options": [
+                        {
+                            "value": "খুব কার্যকর",
+                            "label": "খুব কার্যকর"
+                        },
+                        {
+                            "value": "কার্যকর",
+                            "label": "কার্যকর"
+                        },
+                        {
+                            "value": "মোটামুটি",
+                            "label": "মোটামুটি"
+                        },
+                        {
+                            "value": "অকার্যকর",
+                            "label": "অকার্যকর"
+                        },
+                        {
+                            "value": "খুব অকার্যকর",
+                            "label": "খুব অকার্যকর"
+                        }
+                    ],
+                    "sequence": 0,
+                    "information": "আপনার মতে, বাংলাদেশের বর্তমান সরকার কতটা কার্যকর?",
+                    "required": true,
+                    "version": "1.1"
+                },
+                {
+                    "type": "RADIO",
+                    "placeholder": "আপনি কি মনে করেন, দেশে গণতন্ত্র সঠিকভাবে কার্যকর হচ্ছে?",
+                    "label": "আপনি কি মনে করেন, দেশে গণতন্ত্র সঠিকভাবে কার্যকর হচ্ছে?",
+                    "name": "democracy",
+                    "options": [
+                        {
+                            "value": "হ্যাঁ",
+                            "label": "হ্যাঁ"
+                        },
+                        {
+                            "value": "না",
+                            "label": "না"
+                        },
+                        {
+                            "value": "মন্তব্য নেই",
+                            "label": "মন্তব্য নেই"
+                        }
+                    ],
+                    "sequence": 0,
+                    "information": "আপনি কি মনে করেন, দেশে গণতন্ত্র সঠিকভাবে কার্যকর হচ্ছে?",
+                    "required": true,
+                    "version": "1.1"
+                },
+                {
+                    "type": "INFORMATION",
+                    "placeholder": "মন্তব্য",
+                    "label": "মন্তব্য",
+                    "name": "Comment",
+                    "sequence": 0,
+                    "information": "মন্তব্য",
+                    "required": true,
+                    "version": "1.1"
+                },
+                {
+                    "type": "SELECT",
+                    "placeholder": "আপনার মতে, দেশের নির্বাচনী ব্যবস্থা কতটা সুষ্ঠু?",
+                    "label": "আপনার মতে, দেশের নির্বাচনী ব্যবস্থা কতটা সুষ্ঠু?",
+                    "name": "electoral_system",
+                    "options": [
+                        {
+                            "value": "পুরোপুরি সুষ্ঠু",
+                            "label": "পুরোপুরি সুষ্ঠু"
+                        },
+                        {
+                            "value": "আংশিক সুষ্ঠু",
+                            "label": "আংশিক সুষ্ঠু"
+                        },
+                        {
+                            "value": "মোটেও সুষ্ঠু নয়",
+                            "label": "মোটেও সুষ্ঠু নয়"
+                        }
+                    ],
+                    "sequence": 0,
+                    "information": "আপনার মতে, দেশের নির্বাচনী ব্যবস্থা কতটা সুষ্ঠু?",
+                    "required": false,
+                    "version": "1.1"
+                }
+            ],
+            "type": "INPUT",
+            "skipAble": false
+        }
+    ]
+}
+```
