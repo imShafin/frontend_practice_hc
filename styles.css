@@ -188,3 +188,93 @@ p {
     font-size: 14px;
     color: #666;
 }
+
+
+/* Top Section */
+.top-section {
+    background: #f8fdfc;
+    text-align: center;
+    padding: 20px;
+}
+
+.topsec {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.topsec hr {
+    width: 150px;
+    margin: 5px auto;
+    border: 1px solid black;
+}
+
+.intro-text {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.intro-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.intro-text p {
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+}
+
+/* Hero Section */
+.hospital {
+    position: relative;
+    background: url('hospital.jpg') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(79, 214, 194, 0.6);
+}
+
+.hospital-content {
+    position: relative;
+    color: black;
+    z-index: 1;
+}
+
+.hospital-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.cta-button {
+    background: #2a7da2;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: left;
+    background: white;
+    font-size: 14px;
+}
