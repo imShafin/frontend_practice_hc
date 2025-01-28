@@ -278,3 +278,81 @@ p {
     background: white;
     font-size: 14px;
 }
+
+.centerize {
+    font-family: Arial, sans-serif;
+    background-color: #eef8f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.faq-container {
+    align-items: center;
+    width: 60%;
+    background: #eef8f5;
+}
+.faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.faq-item:last-child {
+    border-bottom: none;
+}
+.faq-number {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.faq-question {
+    font-size: 20px;
+    flex-grow: 1;
+}
+.faq-toggle {
+    width: 30px;
+    height: 30px;
+    background-color: #66d6c8;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.features-container {
+    width: 60%;
+    background: #eef8f5;
+}
+.features-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.features-item:last-child {
+    border-bottom: none;
+}
+.features-number {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.features-title {
+    font-size: 30px;
+    flex-grow: 1;
+}
+.features-arrow {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
