@@ -1,73 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Features Section</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #eef8f5;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .features-container {
-            width: 60%;
-            background: #eef8f5;
-        }
-        .features-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            border-bottom: 1px solid #ccc;
-        }
-        .features-item:last-child {
-            border-bottom: none;
-        }
-        .features-number {
-            font-size: 30px;
-            font-weight: bold;
-            margin-right: 15px;
-        }
-        .features-title {
-            font-size: 30px;
-            flex-grow: 1;
-        }
-        .features-arrow {
-            font-size: 20px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-    </style>
+    <title>HTML Practice Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="features-container">
-        <h3>Discover the features!</h3>
-        <div class="features-item">
-            <span class="features-number">01</span>
-            <span class="features-title">Creative</span>
-            <span class="features-arrow">→</span>
+
+    <h2>Fedezd fel a lehetőségeket!</h2>
+
+    <section class="grid-container">
+        <div class="card">
+            <img src="1.jpeg" alt="Kreatív Tervezés">
+            <div class="content">
+                <h3>Kreatív Tervezés</h3>
+                <a href="#" class="arrow-btn">→</a>
+            </div>
         </div>
-        <div class="features-item">
-            <span class="features-number">02</span>
-            <span class="features-title">Entertainment</span>
-            <span class="features-arrow">→</span>
+
+        <div class="card">
+            <img src="2.jpeg" alt="Innovatív Megoldások">
+            <div class="content">
+                <h3>Innovatív Megoldások</h3>
+                <a href="#" class="arrow-btn">→</a>
+            </div>
         </div>
-        <div class="features-item">
-            <span class="features-number">03</span>
-            <span class="features-title">Challenge</span>
-            <span class="features-arrow">→</span>
+
+        <div class="card">
+            <img src="3.jpeg" alt="Gyors Szolgáltatás">
+            <div class="content">
+                <h3>Gyors Szolgáltatás</h3>
+                <a href="#" class="arrow-btn">→</a>
+            </div>
         </div>
-        <div class="features-item">
-            <span class="features-number">04</span>
-            <span class="features-title">Explorer</span>
-            <span class="features-arrow">→</span>
+
+        <div class="card">
+            <img src="4.jpeg" alt="Kiváló Támogatás">
+            <div class="content">
+                <h3>Kiváló Támogatás</h3>
+                <a href="#" class="arrow-btn">→</a>
+            </div>
         </div>
-    </div>
+    </section>
+
 </body>
 </html>
