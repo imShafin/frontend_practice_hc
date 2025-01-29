@@ -1,48 +1,41 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Practice Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Contact Page</title>
+    <style>
+        body {
+            background-color: #eef7f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+        
+    </style>
 </head>
 <body>
-
-    <h2>Fedezd fel a lehetőségeket!</h2>
-
-    <section class="grid-container">
-        <div class="card">
-            <img src="1.jpeg" alt="Kreatív Tervezés">
-            <div class="content">
-                <h3>Kreatív Tervezés</h3>
-                <a href="#" class="arrow-btn">→</a>
-            </div>
+    <section class="divide">
+        <div class="left-section">
+            <p>Go to contact us.</p>
+            <img src="short3.jpeg" alt="Snowflake Logo" width="50" height="60">
+            <p class="footer">2025 Adventure Ltd. All rights reserved.</p>
         </div>
-
-        <div class="card">
-            <img src="2.jpeg" alt="Innovatív Megoldások">
-            <div class="content">
-                <h3>Innovatív Megoldások</h3>
-                <a href="#" class="arrow-btn">→</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="3.jpeg" alt="Gyors Szolgáltatás">
-            <div class="content">
-                <h3>Gyors Szolgáltatás</h3>
-                <a href="#" class="arrow-btn">→</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="4.jpeg" alt="Kiváló Támogatás">
-            <div class="content">
-                <h3>Kiváló Támogatás</h3>
-                <a href="#" class="arrow-btn">→</a>
-            </div>
+        <div class="right-section">
+            <form class="contact-form">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Surname">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Address">
+                <button type="submit">Send</button>
+            </form>
+            <p>+36 30 123 4567<br>info@kaland.hu<br>Dhaka Bangladesh</p>
         </div>
     </section>
-
 </body>
 </html>

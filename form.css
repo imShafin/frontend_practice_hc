@@ -1,0 +1,42 @@
+
+.divide {
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+}
+.left-section {
+    margin-left: 40px;
+    display: grid;
+    
+}
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 40px;
+}
+.contact-form input {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.contact-form button {
+    background-color: #4a6c7c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #395766;
+}
+
+.foot {
+    bottom: 10px;
+    left: 20px;
+}
+
