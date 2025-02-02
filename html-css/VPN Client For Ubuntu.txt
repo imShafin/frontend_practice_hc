@@ -1,0 +1,23 @@
+VPN Client For Ubuntu:
+--------------------
+To run from command line, download the script => https://nextcloud.pentabd.com/index.php/s/nJXpfkdw4QoDRK9
+
+To run from GUI, download from =>  https://nextcloud.pentabd.com/index.php/s/6nsEJAN2myiXaBk
+
+Instruction to run from command line:
+1. use sudo with script
+2. Provide username and password while prompting for credential
+
+
+VPN Client for Windows
+-----------------------
+https://nextcloud.pentabd.com/index.php/s/RfcHq6a7S99sxGD
+
+
+FortiClient Username list:
+----------------------------
+https://nextcloud.pentabd.com/index.php/s/witxf3pDXzMZJ9s
+
+
+Remote Server IP: 122.152.48.146
+

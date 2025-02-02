@@ -1,0 +1,92 @@
+/* General Responsive Fixes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Responsive Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+    }
+    .nav-links.active {
+        display: flex;
+    }
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.hero-content, .hero-image {
+    flex: 1 1 100%;
+}
+
+.hero-image img {
+    width: 80%;
+    max-width: 400px;
+}
+
+/* Gallery Responsive Fix */
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Contact Form Fix */
+.divide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.right-section, .left-section {
+    flex: 1 1 100%;
+    padding: 10px;
+}
+
+.contact-form input {
+    width: 100%;
+    max-width: 350px;
+}
+
+@media (max-width: 600px) {
+    .banner-buttons {
+        flex-direction: column;
+    }
+}

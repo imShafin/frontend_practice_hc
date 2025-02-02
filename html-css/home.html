@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adventure Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="form.css">
 </head>
@@ -12,7 +13,7 @@
     <!-- Banner -->
     <div class="banner">
         <button class="close-btn">&times;</button>
-        <p>The site was made with <a href="#">Free AI Website Builder</a>!</p>
+        <p class="text-danger">The site was made with <a href="#">Free AI Website Builder</a>!</p>
         <div class="banner-buttons">
             <button class="banner-btn">Get AI Kit!</button>
             <button class="banner-btn">Remove This Banner</button>
@@ -22,19 +23,22 @@
     <nav class="navbar">
         <div class="logo">
             <img src="photo1.jpeg" alt="Adventure Logo">
-            <span>Adventure</span>
+    
+        
+            <ul class="nav-links">
+                <span class="sp">Adventure</span>
+                <li><a href="#">Discovery</a></li>
+                <li><a href="#">Challenge</a></li>
+                <li><a href="#">Entertainment</a></li>
+            </ul>
         </div>
-        <ul class="nav-links">
-            <li><a href="#" class="active">Discovery</a></li>
-            <li><a href="#">Challenge</a></li>
-            <li><a href="#">Entertainment</a></li>
-        </ul>
-        <button class="cta-button">Let's start Now</button>
+        
+        <button class="cta-button">Let's start</button>
     </nav>
 
     <section class="hero">
         <div class="hero-content">
-            <h2>Dive in El Adventure</h2>
+            <h1>Dive in El Adventure</h1>
             <button class="hero-btn">Join Now</button>
             <p>Discover the world where fun and challenge are limitless! Don't miss it.</p>
         </div>
@@ -208,8 +212,10 @@
     <section class="divide">
         <div class="left-section">
             <p>Go to contact us.</p>
-            <img src="short3.jpeg" alt="Snowflake Logo" width="50" height="60">
-            <p class="foot">2025 Adventure Ltd. All rights reserved.</p>
+            <div class="logo-element">
+                <img src="short3.jpeg" alt="Snowflake Logo" width="100" height="60">
+                <p class="foot">2025 Adventure Ltd. All rights reserved.</p>
+            </div>
         </div>
         <div class="right-section">
             <form class="contact-form">
@@ -222,5 +228,7 @@
             <p>+36 30 123 4567<br>info@kaland.hu<br>Dhaka Bangladesh</p>
         </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
