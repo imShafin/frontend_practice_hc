@@ -5,9 +5,56 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--Bootstrap CSS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <style>
+          .banner {
+              background-color: #f8f9fa;  /* Light gray background */
+              border: 2px solid #dee2e6;  /* Border for the banner */
+              border-radius: 15px;
+              padding: 20px;
+              position: relative;
+              text-align: center;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+          }
+  
+          .close-btn {
+              position: absolute;
+              top: 10px;
+              right: 15px;
+              background: none;
+              border: none;
+              font-size: 1.5rem;
+              color: #000;
+              cursor: pointer;
+          }
+  
+          .banner-buttons {
+              margin-top: 20px;
+          }
+          .aligns {
+            text-align: left; 
+            padding-left: 5px;
+          }
+        </style>
         <title>Boo</title>
     </head>
     <body>
+        <!--banner-->
+        <div class="banner">
+          <!-- Close Button -->
+          <button class="close-btn" onclick="this.parentElement.style.display='none';">&times;</button>
+      
+          <!-- Centered Line of Text -->
+          <h3 class="mb-3">The site was made with Free AI Website Builder!
+      
+          </h3>
+      
+          <div class="banner-buttons d-flex justify-content-center gap-3">
+              <button class="btn btn-primary">Get Start</button>
+              <button class="btn btn-outline-secondary">Remove the Banner</button>
+          </div>
+        </div>
+      
+
         <!--navbar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -31,15 +78,14 @@
                   </li>
                 </ul>
                 <form class="d-flex">
-                  <button class="btn btn-outline-success" type="submit">Let's Start</button>
+                  <button class="rounded-pill" style="background-color: blue; color: white;" type="submit">Let's Start</button>
                 </form>
               </div>
             </div>
           </nav>
 
-          <div
-            style="background-color: rgb(242, 252, 250); 
-                   padding: 10px;" class="container my-5">
+        <section style="background-color: rgb(242, 252, 250); 
+                   padding: 10px; margin-left: 5px; margin-right: 5px;;" class="container-fluid my-5">
             <div class="row align-items-center">
                 <!-- Text Div (Left) -->
                 <div class="col-md-6">
@@ -59,10 +105,52 @@
                 </div>
             </div>
         </section>
-        
 
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>        
+        <section class="container-fluid my-5" style="overflow-x: auto; white-space: nowrap;">
+          <h2 class="text-center mb-4">Discover our Adventures</h2>
+      
+          <div class="card" style="width: 28rem;">
+            <img src="/pic/5.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="/pic/2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="/pic/1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="/pic/3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="/pic/c.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>        
     </body>
 
 </html>
